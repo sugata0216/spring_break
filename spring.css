@@ -13,8 +13,8 @@
     width: 80%;
     height: 60%;
     /* display: flex; */
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin-top: 12px;
     text-align: center;
 }
@@ -83,6 +83,41 @@
     /* text-align: center; */
 }
 #press-text {
-    animation: fadeInout 1s infinite;
+    animation: fadeInOut 1s infinite;
     padding-top: 24px;
+}
+.countpopup {
+    background-color: white;
+    height: 100px;
+    width: 1000px;
+}
+.gamepopup {
+    background-color: white;
+    height: 400px;
+    width: 1000px;
+    margin-top: 96px;
+    border: 1px white solid;
+}
+#count {
+    padding-top: 12px;
+}
+#spring p {
+    font-size: 24px;
+}
+#theme {
+    background-color: whitesmoke;
+    padding: 48px 0;
+}
+#input_field {
+    background-color: whitesmoke;
+    width: 669px;
+    height: 48px;
+    /* padding-top: 0; */
+    font-size: 24px;
+}
+#pause {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 3px;
 }

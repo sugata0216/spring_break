@@ -15,7 +15,7 @@
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-    margin-top: 12px;
+    /* margin-top: 12px; */
     text-align: center;
 }
 .startpopup {
@@ -55,8 +55,6 @@
     font-size: 23px;
     border-radius: 3px;
     padding: 6px 12px;
-}
-.difficulty:hover {
     cursor: pointer;
 }
 /* .button_list {
@@ -121,4 +119,33 @@
     color: white;
     padding: 12px;
     border-radius: 3px;
+    cursor: pointer;
+}
+.pausepopup {
+    background-color: black;
+    height: 75px;
+    width: 400px;
+    margin-top: 96px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.pausepopup button {
+    /* padding: auto; */
+    margin-top: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#resume {
+    color: white;
+    background-color: green;
+    padding: 3px;
+    font-size: 23px;
+    margin-right: 64px;
+}
+#top {
+    color: white;
+    background-color: red;
+    padding: 3px;
+    font-size: 23px;
 }
